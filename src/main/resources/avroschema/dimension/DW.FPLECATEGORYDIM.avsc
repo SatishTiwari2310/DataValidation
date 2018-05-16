@@ -1,0 +1,11 @@
+{
+	"type": "record",
+	"name": "DW.FPLECATEGORYDIM",
+	"fields": [
+	{"name":"FPLECATEGORYSK","type":"long"},
+	{"name":"FPLECATEGORYID","type":"long"},
+	{"name":"FPLECATEGORYNAME","type":["string","null"]},
+	{"name":"LOADUTCDATETIME","type":["long","null"]}
+	]
+	}
+	

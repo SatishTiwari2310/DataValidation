@@ -1,0 +1,11 @@
+{
+	"type": "record",
+	"name": "DW.POWERCURVEDETAILDIM",
+	"fields": [
+	{"name":"POWERCURVEDETAILSK","type":"long"},
+	{"name":"POWERCURVESK","type":"long"},
+	{"name":"LOADUTCDATETIME","type":["long","null"]},
+	{"name":"POWERCURVEDETAILWINDSPEED","type":["double","null"]},
+	{"name":"POWERCURVEDETAILEXPECTEDPOWER","type":["double","null"]}
+	]
+	}

@@ -1,0 +1,15 @@
+{
+	"type": "record",
+	"name": "DW.GADSCATEGORYDIM",
+	"fields": [
+	{"name":"GADSCATEGORYSK","type":"long"},
+	{"name":"GADSCATEGORYID","type":"long"},
+	{"name":"GADSCATEGORYNAME","type":["string","null"]},
+	{"name":"SUBCATEGORYNAME","type":["string","null"]},
+	{"name":"SUBCATEGORYDEFINITION","type":["string","null"]},
+	{"name":"LOADUTCDATETIME","type":["long","null"]},
+	{"name":"NERCID","type":["long","null"]},
+	{"name":"OMC_FLAG","type":["long","null"]}
+	]
+	}
+	

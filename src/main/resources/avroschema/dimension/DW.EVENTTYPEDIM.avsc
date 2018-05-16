@@ -1,0 +1,12 @@
+{
+	"type": "record",
+	"name": "DW.EVENTTYPEDIM",
+	"fields": [
+	{"name":"EVENTTYPESK","type":"long"},
+	{"name":"EVENTTYPEID","type":"long"},
+	{"name":"EVENTTYPEABBREVIATION","type":["string","null"]},
+	{"name":"EVENTTYPENAME","type":["string","null"]},
+	{"name":"LOADUTCDATETIME","type":["long","null"]}
+	]
+	}
+	

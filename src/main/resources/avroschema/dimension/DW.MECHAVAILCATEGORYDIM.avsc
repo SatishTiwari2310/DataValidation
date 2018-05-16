@@ -1,0 +1,12 @@
+{
+	"type": "record",
+	"name": "DW.MECHAVAILCATEGORYDIM",
+	"fields": [
+	{"name":"MECHAVAILABILITYCATEGORYSK","type":"long"},
+	{"name":"MECHAVAILABILITYCATEGORYID","type":"long"},
+	{"name":"MECHAVAILABILITYCATEGORYNAME","type":["string","null"]},
+	{"name":"LOADUTCDATETIME","type":["long","null"]},
+	{"name":"PLANTID","type":"long"},
+	{"name":"PLANTNAME","type":["string","null"]}
+	]
+	}

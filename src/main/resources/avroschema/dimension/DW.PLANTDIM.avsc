@@ -1,0 +1,32 @@
+{
+	"type": "record",
+	"name": "DW.PLANTDIM",
+	"fields": [
+	{"name":"PLANTSK","type":"long"},
+	{"name":"PLANTID","type":"long"},
+	{"name":"CITY","type":["string","null"]},
+	{"name":"COMMERCIALDATE","type":["long","null"]},
+	{"name":"COUNTRY","type":"string"},
+	{"name":"COUNTRYNAME","type":["string","null"]},
+	{"name":"INSTALLEDCAPACITY","type":["float","null"]},
+	{"name":"PLANTABBREVIATION","type":["string","null"]},
+	{"name":"PLANTNAME","type":["string","null"]},
+	{"name":"STATEPROVINCE","type":"string"},
+	{"name":"STATEPROVINCENAME","type":["string","null"]},
+	{"name":"TIMEZONE","type":["string","null"]},
+	{"name":"ACTIVEFLAG","type":"long"},
+	{"name":"MECHANICALAVAILABILITYFLAG","type":["long","null"]},
+	{"name":"LOADUTCDATETIME","type":["long","null"]},
+	{"name":"GENERALMANAGER","type":["string","null"]},
+	{"name":"OWNERSHIP","type":["long","null"]},
+	{"name":"SAPCODE","type":["string","null"]},
+	{"name":"TURBINECOUNT","type":["float","null"]},
+	{"name":"BUSINESSMANAGEMENTREGIONID","type":["long","null"]},
+	{"name":"NERCREGIONID","type":["long","null"]},
+	{"name":"SAPREGIONID","type":["long","null"]},
+	{"name":"WINDOPSREGIONID","type":["long","null"]},
+	{"name":"TURBINESUPPLYAGREEMENTFLAG","type":["long","null"]},
+	{"name":"COMMONID","type":["long","null"]},
+	{"name":"ROLLUPFLAG","type":["long","null"]}
+	]
+	}

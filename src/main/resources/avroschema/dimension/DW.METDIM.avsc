@@ -1,0 +1,21 @@
+{
+	"type": "record",
+	"name": "DW.METDIM",
+	"fields": [
+	{"name":"METSK","type":"long"},
+	{"name":"PLANTID","type":"long"},
+	{"name":"PLANTNAME","type":["string","null"]},
+	{"name":"SCADATYPEID","type":"long"},
+	{"name":"SCADATYPEMANUFACTURER","type":["string","null"]},
+	{"name":"SCADATYPENAME","type":["string","null"]},
+	{"name":"METID","type":"long"},
+	{"name":"METLATITUDE","type":["string","null"]},
+	{"name":"METLONGITUDE","type":["string","null"]},
+	{"name":"METLOCALID","type":["string","null"]},
+	{"name":"METNAME","type":["string","null"]},
+	{"name":"METTYPE","type":["string","null"]},
+	{"name":"ACTIVEFLAG","type":"long"},
+	{"name":"LOADUTCDATETIME","type":["long","null"]}
+	]
+	}
+	

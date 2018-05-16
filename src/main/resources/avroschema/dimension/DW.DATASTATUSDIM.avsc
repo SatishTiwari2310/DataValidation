@@ -1,0 +1,10 @@
+{
+	"type": "record",
+	"name": "DW.DATASTATUSDIM",
+	"fields": [
+	{"name":"DATASTATUSSK","type":"long"},
+	{"name":"DATASTATUSID","type":"long"},
+	{"name":"DATASTATUSNAME","type":["string", "null"]},
+	{"name":"LOADUTCDATETIME","type":["long", "null"]}
+	]
+	}

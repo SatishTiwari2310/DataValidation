@@ -1,0 +1,13 @@
+{
+	"type": "record",
+	"name": "DW.GADSTURBINESTATEDIM",
+	"fields": [
+	{"name":"GADSTURBINESTATESK","type":"long"},
+	{"name":"GADSTURBINESTATEID","type":"long"},
+	{"name":"GADSTURBINESTATEABBREVIATION","type":["string","null"]},
+	{"name":"GADSTURBINESTATEDEFINITION","type":["string","null"]},
+	{"name":"GADSTURBINESTATENAME","type":["string","null"]},
+	{"name":"ISACTIVESTATE","type":["long","null"]},
+	{"name":"LOADUTCDATETIME","type":"long"}
+	]
+	}

@@ -1,0 +1,9 @@
+{
+	"type": "record",
+	"name": "DW.DAILYDATETIMEDIM",
+	"fields": [
+	{"name":"DATETIMEID","type":"long"},
+	{"name":"DAILYDATETIME","type":["long", "null"]}
+	]
+	}
+	

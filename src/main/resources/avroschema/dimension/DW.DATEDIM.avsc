@@ -1,0 +1,38 @@
+{
+	"type": "record",
+	"name": "DW.DATEDIM",
+	"fields": [
+	{"name":"DATESK","type":"long"},
+	{"name":"CALENDARDATE","type":["long", "null"]},
+	{"name":"CALENDARDATESTRING","type":["string", "null"]},
+	{"name":"CALENDARYEARSTRING","type":["string", "null"]},
+	{"name":"DAYOFMONTH","type":["long", "null"]},
+	{"name":"DAYOFYEAR","type":["long", "null"]},
+	{"name":"DAYOFWEEK","type":["string", "null"]},
+	{"name":"JULIANDATE","type":["long", "null"]},
+	{"name":"MONTHNAME","type":["string", "null"]},
+	{"name":"MONTHNUMBER","type":["long", "null"]},
+	{"name":"MONTHENDFLAG","type":["long", "null"]},
+	{"name":"MONTHSTARTDATE","type":["long", "null"]},
+	{"name":"MONTHENDDATE","type":["long", "null"]},
+	{"name":"MONTHWEEKNUMBER","type":["long", "null"]},
+	{"name":"QUARTERSTARTDATE","type":["long", "null"]},
+	{"name":"QUARTERENDDATE","type":["long", "null"]},
+	{"name":"QUARTERBEGINFLAG","type":["long", "null"]},
+	{"name":"QUARTERENDFLAG","type":["long", "null"]},
+	{"name":"QUARTERNUMBER","type":["long", "null"]},
+	{"name":"WEEKDAYFLAG","type":["long", "null"]},
+	{"name":"WEEKENDFLAG","type":["long", "null"]},
+	{"name":"WEEKNUMBER","type":["long", "null"]},
+	{"name":"WEEKSTARTDATE","type":["long", "null"]},
+	{"name":"WEEKENDDATE","type":["long", "null"]},
+	{"name":"YEARSTARTDATE","type":["long", "null"]},
+	{"name":"YEARENDDATE","type":["long", "null"]},
+	{"name":"YEARMONTHNUMBER","type":["string", "null"]},
+	{"name":"YEARMONTHSTRING","type":["string", "null"]},
+	{"name":"YEARQUARTERNUMBER","type":["string", "null"]},
+	{"name":"ISDST","type":["long", "null"]},
+	{"name":"LOADUTCDATETIME","type":["long", "null"]}
+	]
+	}
+	

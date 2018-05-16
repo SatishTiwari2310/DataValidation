@@ -1,0 +1,13 @@
+{
+	"type": "record",
+	"name": "DW.OPPOWERCURVEDIM",
+	"fields": [
+	{"name":"TURBINESK","type":"long"},
+	{"name":"OPPOWERCURVEWINDSPEED","type":"double"},
+	{"name":"OPPOWERCURVEAIRDENSITY","type":["double","null"]},
+	{"name":"OPPOWERCURVEEXPECTEDPOWER","type":["double","null"]},
+	{"name":"OPPOWERCURVECUTINWINDSPEED","type":["double","null"]},
+	{"name":"OPPOWERCURVECUTOUTWINDSPEED","type":["double","null"]},
+	{"name":"LOADUTCDATETIME","type":"long"}
+	]
+	}

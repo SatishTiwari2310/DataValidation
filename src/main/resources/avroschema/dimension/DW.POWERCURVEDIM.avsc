@@ -1,0 +1,13 @@
+{
+	"type": "record",
+	"name": "DW.POWERCURVEDIM",
+	"fields": [
+	{"name":"POWERCURVESK","type":"long"},
+	{"name":"POWERCURVEID","type":"long"},
+	{"name":"POWERCURVEAIRDENSITY","type":["double","null"]},
+	{"name":"POWERCURVENAME","type":["string","null"]},
+	{"name":"LOADUTCDATETIME","type":["long","null"]},
+	{"name":"POWERCURVECUTINWINDSPEED","type":["double","null"]},
+	{"name":"POWERCURVECUTOUTWINDSPEED","type":["double","null"]}
+	]
+	}

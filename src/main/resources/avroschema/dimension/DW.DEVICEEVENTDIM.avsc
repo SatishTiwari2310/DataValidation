@@ -1,0 +1,26 @@
+{
+	"type": "record",
+	"name": "DW.DEVICEEVENTDIM",
+	"fields": [
+	{"name":"EVENTSK","type":"long"},
+	{"name":"EVENTID","type":"long"},
+	{"name":"EVENTNAME","type":["string","null"]},
+	{"name":"FAULTCODE","type":["string","null"]},
+	{"name":"PARENTEVENTID","type":["long","null"]},
+	{"name":"LOADUTCDATETIME","type":["long","null"]},
+	{"name":"FPLECATEGORYID","type":["long","null"]},
+	{"name":"FPLECATEGORYNAME","type":["string","null"]},
+	{"name":"GADSCATEGORYID","type":["long","null"]},
+	{"name":"GADSCATEGORYNAME","type":["string","null"]},
+	{"name":"MECHAVAILABILITYCATEGORYID","type":["long","null"]},
+	{"name":"MECHAVAILABILITYCATEGORYNAME","type":["string","null"]},
+	{"name":"PLANTID","type":["long","null"]},
+	{"name":"PLANTNAME","type":["string","null"]},
+	{"name":"SCADATYPEID","type":["long","null"]},
+	{"name":"SCADATYPENAME","type":["string","null"]},
+	{"name":"TURBINESUPPLYAGMTCATEGORYID","type":["long","null"]},
+	{"name":"TURBINESUPPLYAGMTCATEGORYNAME","type":["string","null"]},
+	{"name":"TURBINETYPEID","type":["long","null"]},
+	{"name":"TURBINETYPENAME","type":["string","null"]}
+	]
+	}

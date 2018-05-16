@@ -1,0 +1,15 @@
+	{
+	"type": "record",
+	"name": "DW.TURBINEFORCEDVARIABLEDIM",
+	"fields": [
+	{"name":"TURBINEFORCEDVARIABLESK","type":"long"},
+	{"name":"TURBINEFORCEDVARIABLENAME","type":["string","null"]},
+	{"name":"DEVICENAME","type":["string","null"]},
+	{"name":"TURBINESK","type":["long","null"]},
+	{"name":"FORCEDVARIABLEUNIT","type":["string","null"]},
+	{"name":"CREATEDBY","type":["string","null"]},
+	{"name":"CREATIONDATE","type":["long","null"]},
+	{"name":"MODIFIEDBY","type":["string","null"]},
+	{"name":"MODIFICATIONDATE","type":["long","null"]}
+	]
+	}

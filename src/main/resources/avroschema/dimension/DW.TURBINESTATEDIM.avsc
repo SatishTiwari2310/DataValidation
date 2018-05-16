@@ -1,0 +1,11 @@
+	{
+	"type": "record",
+	"name": "DW.TURBINESTATEDIM",
+	"fields": [
+	{"name":"TURBINESTATESK","type":"long"},
+	{"name":"TURBINESTATEID","type":["long","null"]},
+	{"name":"TURBINESTATEDESC","type":["string","null"]},
+	{"name":"LOADUTCDATETIME","type":["long","null"]}
+	]
+	}
+	

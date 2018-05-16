@@ -1,0 +1,23 @@
+{
+	"type": "record",
+	"name": "DW.FAULTLOGFACT",
+	"fields": [
+	{"name":"TURBINESK","type":"long"},
+	{"name":"EVENTSK","type":"long"},
+	{"name":"STARTUTCDATETIME","type":"long"},
+	{"name":"STARTLOCALDATETIME","type":"long"},
+	{"name":"ENDLOCALDATETIME","type":["long","null"]},
+	{"name":"ENDUTCDATETIME","type":["long","null"]},
+	{"name":"LOADUTCDATETIME","type":["long","null"]},
+	{"name":"SOURCEFAULTCODE","type":["string","null"]},
+	{"name":"STATUS","type":["long","null"]},
+	{"name":"STATECODE","type":["long","null"]},
+	{"name":"STATE1","type":["long","null"]},
+	{"name":"STATE2","type":["long","null"]},
+	{"name":"ERRORPARM1","type":["long","null"]},
+	{"name":"ERRORPARM2","type":["long","null"]},
+	{"name":"TURBINESTATE","type":["long","null"]},
+	{"name":"MAINTENANCEFLAG","type":["long","null"]},
+	{"name":"FAULT_DURATION_SECONDS","type":["long","null"]}
+	]
+	}

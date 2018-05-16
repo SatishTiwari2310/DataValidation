@@ -1,0 +1,12 @@
+	{
+	"type": "record",
+	"name": "DW.TURBINESPLYAGMTCATEGORYDIM",
+	"fields": [
+	{"name":"TURBINESUPPLYAGMTCATEGORYSK","type":"long"},
+	{"name":"TURBINESUPPLYAGMTCATEGORYID","type":"long"},
+	{"name":"TURBINESUPPLYAGMTCATEGORYNAME","type":["string","null"]},
+	{"name":"LOADUTCDATETIME","type":["long","null"]},
+	{"name":"TURBINETYPEID","type":"long"},
+	{"name":"TURBINETYPENAME","type":["string","null"]}
+	]
+	}

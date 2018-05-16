@@ -1,0 +1,19 @@
+{
+	"type": "record",
+	"name": "DW.MISCDIM",
+	"fields": [
+	{"name":"MISCSK","type":"long"},
+	{"name":"PLANTCURTAILED","type":["string","null"]},
+	{"name":"TURBINECURTAILED","type":["string","null"]},
+	{"name":"DTENOTESFLAG","type":["string","null"]},
+	{"name":"TURBINEDERATEFLAG","type":["string","null"]},
+	{"name":"WLSTATUSFLAG","type":["string","null"]},
+	{"name":"CONTROL_MODE","type":["string","null"]},
+	{"name":"REIMBURSABLE_CURTAILMENT","type":["string","null"]},
+	{"name":"WINDSPEED_SOURCE","type":["string","null"]},
+	{"name":"FOLLOW_FLAG","type":["string","null"]},
+	{"name":"OOME_FLAG","type":["string","null"]},
+	{"name":"BACKFILLENERGYSOURCECODE","type":["string","null"]},
+	{"name":"WLSUBSTATUSFLAG","type":["string","null"]}
+	]
+	}

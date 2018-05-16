@@ -1,0 +1,12 @@
+{
+	"type": "record",
+	"name": "DW.DRIVERDIM",
+	"fields": [
+	{"name":"DRIVERSK","type":"long"},
+	{"name":"DRIVERDEFINITION","type":["string","null"]},
+	{"name":"LOADUTCDATETIME","type":["long","null"]},
+	{"name":"DRIVERID","type":["long","null"]},
+	{"name":"DRIVERNAME","type":["string","null"]}
+	]
+	}
+	

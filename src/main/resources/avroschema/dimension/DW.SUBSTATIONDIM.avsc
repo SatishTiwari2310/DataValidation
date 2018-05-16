@@ -1,0 +1,16 @@
+{
+	"type": "record",
+	"name": "DW.SUBSTATIONDIM",
+	"fields": [
+	{"name":"SUBSTATIONSK","type":"long"},
+	{"name":"PLANTID","type":"long"},
+	{"name":"PLANTNAME","type":["string","null"]},
+	{"name":"SCADATYPEID","type":"long"},
+	{"name":"SCADATYPEMANUFACTURER","type":["string","null"]},
+	{"name":"SCADATYPENAME","type":["string","null"]},
+	{"name":"SUBSTATIONID","type":"long"},
+	{"name":"SUBSTATIONNAME","type":["string","null"]},
+	{"name":"ACTIVEFLAG","type":"long"},
+	{"name":"LOADUTCDATETIME","type":["long","null"]}
+	]
+	}
